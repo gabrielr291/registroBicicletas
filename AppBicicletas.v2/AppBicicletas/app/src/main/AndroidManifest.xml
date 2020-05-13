@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="track.android.citt.appbicicletas">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AlumnoActivity"
+            android:theme="@style/DuocTheme"
+            android:label="Registrar Entrada"></activity>
+        <activity
+            android:name=".PreEntradaActivity"
+            android:theme="@style/DuocTheme"
+            android:label="Registrar Entrada"/>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/DuocTheme"
+            android:label="Menu"/>
+        <activity
+            android:name=".WelcomeActivity"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

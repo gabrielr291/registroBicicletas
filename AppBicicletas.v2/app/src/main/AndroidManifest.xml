@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="track.android.citt.appbicicletas">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ListadoRegistros"></activity>
+        <activity android:name=".SalidaVisita" />
+        <activity
+            android:name=".EntradaVisita"
+            android:label="Registrar Entrada"
+            android:theme="@style/DuocTheme" />
+        <activity
+            android:name=".PreSalidaActivity"
+            android:label="Registrar Salida"
+            android:theme="@style/DuocTheme" />
+        <activity
+            android:name=".SalidaAlumno"
+            android:label="Registrar Salida"
+            android:theme="@style/DuocTheme" />
+        <activity
+            android:name=".EntradaAlumno"
+            android:label="Registrar Entrada"
+            android:theme="@style/DuocTheme" />
+        <activity
+            android:name=".PreEntradaActivity"
+            android:label="Registrar Entrada"
+            android:theme="@style/DuocTheme" />
+        <activity
+            android:name=".MainActivity"
+            android:label="Menu"
+            android:theme="@style/DuocTheme" />
+        <activity
+            android:name=".WelcomeActivity"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

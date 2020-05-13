@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "532209515645",
+    "firebase_url": "https://app-bicicletas.firebaseio.com",
+    "project_id": "app-bicicletas",
+    "storage_bucket": "app-bicicletas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532209515645:android:36c227cad8075bd0d0c514",
+        "android_client_info": {
+          "package_name": "track.android.citt.appbicicletas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532209515645-s230sbfqei3su5nnlq35tm55t4ilbs41.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "track.android.citt.appbicicletas",
+            "certificate_hash": "9a6c9c616b92e41ccfa41682e1e1ed84cf61bf9d"
+          }
+        },
+        {
+          "client_id": "532209515645-qhdu2rf0df2u7jok0aj1f9ndm4fkk6nj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCr1dDHC0z3oieHJikHRPt4tU_nxP1hHoQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "532209515645-qhdu2rf0df2u7jok0aj1f9ndm4fkk6nj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
